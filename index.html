@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>flip trip</title>
+    <style type="text/css">
+        .flip {
+            background: black;
+        }
+    </style>
+</head>
+
+<body>
+    <h1 align="center">Flip Trip</h1>
+    <div align="center" id="game_area">
+        <input type="number" id="num" value=4></input>
+        <button onclick="start()">Game Start</button>
+    </div>
+    <h1 align="center" id="result"></h1>
+    <template id="stone_template">
+        <span width="100" height="100" class="stone"
+            style="width:100px;height:100px;margin:10px;display:inline-block;border:solid 1px black;border-radius:100px;"></span>
+    </template>
+    <script type="text/javascript" src="index.js"></script>
+</body>
+
+</html>
